@@ -1,3 +1,8 @@
+"""
+openf5-utils
+Copyright (c) 2025 mrfakename. All rights reserved.
+"""
+
 from openf5_utils.ipa import IPAPhonemizer
 import phonemizer
 
