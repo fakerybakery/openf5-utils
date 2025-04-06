@@ -5,7 +5,12 @@ import phonemizer
 openf5_phonemizer = IPAPhonemizer()
 
 # Initialize phonemizer library
-global_phonemizer = phonemizer.backend.EspeakBackend(language='en-us', preserve_punctuation=True, with_stress=True, words_mismatch='ignore')
+global_phonemizer = phonemizer.backend.EspeakBackend(
+    language="en-us",
+    preserve_punctuation=True,
+    with_stress=True,
+    words_mismatch="ignore",
+)
 
 # Compare outputs
 text = "Hello, world!"
